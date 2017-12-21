@@ -1,4 +1,4 @@
-[![NPM package][https://badge.fury.io/js/line-deco-converter.svg]][https://www.npmjs.com/package/line-deco-converter]
+[![NPM package](https://badge.fury.io/js/line-deco-converter.svg)](https://www.npmjs.com/package/line-deco-converter)
 
 line-deco-converter
 ======================
