@@ -1,0 +1,26 @@
+{
+  "name": "line-deco-converter",
+  "description": "this lib converts text to Line deco and vice versa",
+  "author": "re-fort",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/re-fort/line-deco-converter.git"
+  },
+  "main": "dist/build.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint 'src/**' 'test/**'",
+    "test": "mocha-webpack test/index.spec.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.1",
+    "mocha": "^4.0.1",
+    "mocha-webpack": "^1.0.1",
+    "webpack": "^3.10.0"
+  }
+}

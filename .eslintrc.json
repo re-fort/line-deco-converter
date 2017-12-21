@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "rules": {
+    "comma-dangle": ["warn", "always-multiline"],
+    "no-extra-semi": "warn",
+    "no-undef": "error",
+    "no-var": "error",
+    "no-unused-vars": ["error", {"vars": "all", "args": "after-used"}],
+    "quotes": ["warn", "single"],
+    "semi": "off",
+    "space-before-blocks": ["warn", { "functions": "always", "keywords": "always", "classes": "always" }]
+  }
+}
