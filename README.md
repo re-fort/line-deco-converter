@@ -3,7 +3,8 @@
 line-deco-converter
 ======================
 
-Lineのデコ文字とテキストを相互に変換します。
+LINEのデコ文字とテキストを相互に変換します。  
+変換された文字列をLINEのテキスト欄に貼り付けるとデコ文字として表示されます。
 
 ## デモ
 https://re-fort.net/line-deco-converter/
@@ -12,6 +13,12 @@ https://re-fort.net/line-deco-converter/
 ```
 npm install line-deco-converter
 ```
+
+## CDN
+```
+<script src="https://cdn.jsdelivr.net/npm/line-deco-converter/dist/build.min.js"></script>
+```
+
 
 ## 使い方
 ```
