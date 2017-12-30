@@ -83,17 +83,6 @@
           <span>変換文字種別選択</span>
         </div>
         <div class="select">
-          <select v-model="selectedAlpha">
-            <option value="ALPHA1">アルファベット1</option>
-            <option value="ALPHA2">アルファベット2</option>
-            <option value="ALPHA3">アルファベット3</option>
-            <option value="ALPHA4">アルファベット4</option>
-          </select>
-        </div>
-        <img :src="images[selectedAlpha]"/>
-        <br/>
-
-        <div class="select">
           <select v-model="selectedKana">
             <option value="KANA1">カナ1</option>
             <option value="KANA2">カナ2</option>
@@ -102,6 +91,17 @@
           </select>
         </div>
         <img :src="images[selectedKana]"/>
+        <br/>
+
+        <div class="select">
+          <select v-model="selectedAlpha">
+            <option value="ALPHA1">アルファベット1</option>
+            <option value="ALPHA2">アルファベット2</option>
+            <option value="ALPHA3">アルファベット3</option>
+            <option value="ALPHA4">アルファベット4</option>
+          </select>
+        </div>
+        <img :src="images[selectedAlpha]"/>
         <textarea class="textarea" v-model="text"></textarea>
       </div>
     </div>
